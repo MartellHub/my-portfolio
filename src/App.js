@@ -4,6 +4,7 @@ import LandingSection from "./components/LandingSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactMeSection from "./components/ContactMeSection";
 import Footer from "./components/Footer";
+import Certificates from "./components/Certificates";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
 
@@ -15,6 +16,7 @@ function App() {
           <Header heidden/>
           <LandingSection />
           <ProjectsSection />
+          <Certificates />
           <ContactMeSection />
           <Footer />
           <Alert />
